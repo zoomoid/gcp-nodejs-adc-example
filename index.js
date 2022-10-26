@@ -1,9 +1,9 @@
-const dotenv = require("dotenv-safe");
+// const dotenv = require("dotenv-safe");
 
-dotenv.config({
-  debug: true,
-  allowEmptyValues: true,
-});
+// dotenv.config({
+//   debug: true,
+//   allowEmptyValues: true,
+// });
 
 const config = {
   projectId: process.env.FIREBASE_PROJECT_ID,
