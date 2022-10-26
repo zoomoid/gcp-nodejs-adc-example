@@ -1,0 +1,27 @@
+{
+  "name": "gcp-nodejs-adc-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoomoid/gcp-nodejs-adc-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoomoid/gcp-nodejs-adc-example/issues"
+  },
+  "homepage": "https://github.com/zoomoid/gcp-nodejs-adc-example#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "dotenv-safe": "^8.2.0",
+    "firebase": "^9.12.1",
+    "firebase-admin": "^11.2.0"
+  }
+}
