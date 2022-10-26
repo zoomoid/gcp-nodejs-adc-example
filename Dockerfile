@@ -13,4 +13,4 @@ COPY --from=builder /app /app
 
 WORKDIR /app
 
-CMD ["dist/index.js"]
+CMD ["index.js"]
